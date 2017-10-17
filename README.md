@@ -1,13 +1,12 @@
 What does it do?
 -------------------
-Say you wanted to submit a post on reddit and you wanted a lot of people to like it.  
-
-I believe that the title of your post(I think you would agree) is important in determining how many upvotes(likes) you will receive.  
+Say you wanted to submit a post on reddit and you wanted a lot of people to like it.  I believe that the title of your post(I think you would agree) is important in determining how many upvotes(likes) you will receive.  This tool will do this!!!!
 
 
 Where did this idea come from?
 ------------------------------
-This idea was partially fleshed out at [hackumbc](http://hackumbc.org) with a prototype hosted [here](http://http://54.197.149.55) ***IMPORTANT*** Just enter in "Title". Do not enter "subreddit" [Read more about how this project came together](https://devpost.com/software/calzone-trhmwb)
+This idea was idea was made concrete at [hackumbc](http://hackumbc.org) with a prototype hosted [here](http://http://54.197.149.55) ***IMPORTANT*** Only enter "Title". Do not enter "subreddit"
+[Read more about how this project came together](https://devpost.com/software/calzone-trhmwb)
 
 So how did you do it?
 ---------------------
