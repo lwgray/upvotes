@@ -5,7 +5,7 @@ Say you wanted to submit a post on reddit and you wanted a lot of people to like
 
 Where did this idea come from?
 ------------------------------
-This idea was idea was made concrete at [hackumbc](http://hackumbc.org) with a prototype hosted [here](http://http://54.197.149.55) ***IMPORTANT*** Only enter "Title". Do not enter "subreddit"
+This idea was made concrete at [hackumbc](http://hackumbc.org) with a prototype hosted [here](http://http://54.197.149.55) ***IMPORTANT*** Only enter "Title". Do not enter "subreddit"
 [Read more about how this project came together](https://devpost.com/software/calzone-trhmwb)
 
 So how did you do it?
@@ -16,7 +16,7 @@ The  workflow is a simple 2-step process.  I first apply Tf-idf vectorizer.  Thi
 
 Take a look at the Code
 -----------------------
-code in upvotes.ipynb
+Code is in upvotes.ipynb
 
 What is the problem?
 --------------------
@@ -26,3 +26,15 @@ This method alone doesn't provide a great prediction.  I want to add in new feat
     2. How old is the post? ( I would think that the older the post the more the upvotes)
 
 Technically, how do I do this?   HELP ME.. post an issue
+
+What solutions or Suggestions have others made?
+-----------------------------------------------
+  1. Try the simpler problem of classifying which posts are within the top 20%
+  2. Check if your data is normally distributed - Short Answer, it's not :(
+  3. Add in features such as time of day, day of week, is the title a question(yes,no)
+  4. Use Logistic regression for binary classification
+  5. Normalize votes to a metric of votes/time 
+
+These comments came from reddit discussions:
+  1. [/r/machinelearning](https://www.reddit.com/r/MachineLearning/comments/772hik/d_i_need_help_predicting_the_number_of_subreddit/)
+  2. [/r/datascience](https://www.reddit.com/r/datascience/comments/772e7q/i_need_help_predicting_the_number_of_subreddit/)
